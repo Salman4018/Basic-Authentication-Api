@@ -1,24 +1,5 @@
-/Log/*.txt
-/Log
-Log
-/Client/bin
-/DataServices/bin
-/Server/bin
-/Server/obj
-/Shared/bin
-/Shared/obj
-/Test.Net.Data/bin
-/Test.Net.Data/obj
-/Client/obj
-/DataServices/obj
-/.vs/Test.Net
-/.vs
-/Client/libman.json
-/Client/Test.Net.Client.csproj.user
-
-
-# Created by https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,web
-# Edit at https://www.toptal.com/developers/gitignore?templates=aspnetcore,dotnetcore,web
+# Created by https://www.toptal.com/developers/gitignore/api/web,dotnetcore,aspnetcore
+# Edit at https://www.toptal.com/developers/gitignore?templates=web,dotnetcore,aspnetcore
 
 ### ASPNETCore ###
 ## Ignore Visual Studio temporary files, build results, and
@@ -303,8 +284,10 @@ obj/
 *.asp
 *.cer
 *.csr
+*.css
 *.htm
 *.html
+*.js
 *.jsp
 *.php
 *.rss
@@ -312,5 +295,4 @@ obj/
 *.wat
 *.xhtml
 
-# End of https://www.toptal.com/developers/gitignore/api/aspnetcore,dotnetcore,web
-
+# End of https://www.toptal.com/developers/gitignore/api/web,dotnetcore,aspnetcore
