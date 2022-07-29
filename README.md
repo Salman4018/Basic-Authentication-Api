@@ -1,4 +1,7 @@
 # Basic-Authentication-Api
+This repository Explains how to add Basic Authentication for .NetCore Web Api
+
+Below is the output
 ![image](https://user-images.githubusercontent.com/69511691/181732081-7f51d7f4-0334-47a2-bd1a-070fdc61a161.png)
 ![image](https://user-images.githubusercontent.com/69511691/181732301-489e47b1-f8ff-469c-bb6b-35e00a3d8904.png)
 ![image](https://user-images.githubusercontent.com/69511691/181732466-abbeaadf-17f2-4f2c-bc05-1fba14168a84.png)
