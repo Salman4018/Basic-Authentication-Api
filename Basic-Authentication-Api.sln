@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic-Authentication-Api", "Basic-Authentication-Api.csproj", "{E4B73DF4-69B7-42FE-B455-3EAC50EF600D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic-Authentication-Api", "Basic-Authentication-Api.csproj", "{C412B50B-BEBA-43F9-BE47-5412055DCD82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E4B73DF4-69B7-42FE-B455-3EAC50EF600D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E4B73DF4-69B7-42FE-B455-3EAC50EF600D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E4B73DF4-69B7-42FE-B455-3EAC50EF600D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E4B73DF4-69B7-42FE-B455-3EAC50EF600D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C412B50B-BEBA-43F9-BE47-5412055DCD82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C412B50B-BEBA-43F9-BE47-5412055DCD82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C412B50B-BEBA-43F9-BE47-5412055DCD82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C412B50B-BEBA-43F9-BE47-5412055DCD82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6C8A7063-C291-431A-A6A2-C3D8A49F4128}
+		SolutionGuid = {DD021DF5-1245-47BD-86A1-89D6879C6F7A}
 	EndGlobalSection
 EndGlobal
