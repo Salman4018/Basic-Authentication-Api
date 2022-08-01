@@ -36,13 +36,13 @@ namespace Basic_Authentication_Api.Auth
                 }
 
                 Response.StatusCode = 401;
-                Response.Headers.Add("WWW-Authenticate", "Basic realm=\"dotnetthoughts.net\"");
+                Response.Headers.Add("WWW-Authenticate", " Unauthorized User");
                 return Task.FromResult(AuthenticateResult.Fail("Invalid Authorization Header"));
             }
             else
             {
                 Response.StatusCode = 401;
-                Response.Headers.Add("WWW-Authenticate", "Basic realm=\"dotnetthoughts.net\"");
+                Response.Headers.Add("WWW-Authenticate", " Unauthorized User");
                 return Task.FromResult(AuthenticateResult.Fail("Invalid Authorization Header"));
             }
         }

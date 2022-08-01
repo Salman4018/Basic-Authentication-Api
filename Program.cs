@@ -10,7 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 //Implementing Basic Authentication
 builder.Services.AddSwaggerGen(option =>
@@ -33,14 +32,14 @@ builder.Services.AddSwaggerGen(option =>
             }
         }
     );
-
+    
     option.AddSecurityDefinition("Basic", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
         Description = "Please enter Credentials",
         Name = "Authorization",
         Type = SecuritySchemeType.Http,
-        Scheme = "Basic"
+        Scheme = "Basic",
     });
     option.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
@@ -72,9 +71,15 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+  
 }
+
+//Swagger Customization
+app.UseSwagger();
+app.UseSwaggerUI(c => {
+    c.InjectStylesheet("/swagger-ui/custom.css");
+});
+app.UseStaticFiles();
 
 //Implementing Basic Authentication
 app.UseHttpsRedirection();
