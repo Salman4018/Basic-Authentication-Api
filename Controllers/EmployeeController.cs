@@ -17,6 +17,9 @@ namespace Basic_Authentication_Api.Controllers
         /// Get api/GetEmployee
         /// </remarks>
         /// <returns></returns>
+        /// <returns>List of Employees</returns>
+        /// <response code="201">List of Employees</response>
+        /// <response code="400">If the item is null</response> 
         [HttpGet(Name = "GetEmployee")]
         [Produces("application/json")]
         public IEnumerable<Employee> GetEmployee()
