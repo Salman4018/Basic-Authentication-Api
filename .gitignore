@@ -304,7 +304,6 @@ obj/
 *.cer
 *.csr
 *.htm
-*.html
 *.jsp
 *.php
 *.rss
